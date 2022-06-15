@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Home() {
-  return (
-    <div></div>
-  )
+  return <div style={{ height: '2000px' }}>
+    <h1>Home page</h1>
+  </div>;
 }
 
-export default Home
+export default Home;
