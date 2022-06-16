@@ -7,6 +7,8 @@ import PropTypes from 'prop-types';
 import styles from './AccountItem.module.scss';
 import Image from '~/components/Image';
 
+import Image from '~/components/Image';
+
 const cx = classNames.bind(styles);
 
 function AccountItem({ data }) {

@@ -15,7 +15,11 @@ import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
 import classNames from 'classnames/bind';
 
+<<<<<<< HEAD:src/layouts/components/Header/index.js
 import config from '~/config';
+=======
+import routesConfig from '~/config/routes';
+>>>>>>> df225818c207301daf3c55efed6fd3490643f1dc:src/components/Layout/components/Header/index.js
 import images from '~/assets/images';
 import Button from '~/components/Button';
 import { InboxIcon, MessageIcon, UploadIcon } from '~/components/Icons';
@@ -93,10 +97,16 @@ function Header() {
   return (
     <header className={cx('wrapper')}>
       <div className={cx('inner')}>
+<<<<<<< HEAD:src/layouts/components/Header/index.js
         <Link to={config.routes.home} className={cx('logo-link')}>
           <img src={images.logo} alt="logo-Titok" />
         </Link>
 
+=======
+        <Link to={routesConfig.home} className={cx('logo-link')}>
+          <img src={images.logo} alt="logo-Titok" />
+        </Link>
+>>>>>>> df225818c207301daf3c55efed6fd3490643f1dc:src/components/Layout/components/Header/index.js
         {/* Search */}
         <Search />
 
