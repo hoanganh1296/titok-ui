@@ -1,6 +1,4 @@
-import Header from '../components/Header';
-
-import React from 'react';
+import Header from '~/layouts/components/Header';
 
 function HeaderOnly({ children }) {
     return (
